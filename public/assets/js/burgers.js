@@ -14,7 +14,7 @@ $(function() {
         "<li>" +
         burgers[i].id + 
         ". "+burgers[i].name +
-        "<button class='change-devoured' data-id='" +
+        " <button class='change-devoured' data-id='" +
         burgers[i].id +
         "' data-newdevoured='" +
         !burgers[i].devoured +
